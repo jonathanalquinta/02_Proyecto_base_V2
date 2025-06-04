@@ -1,62 +1,52 @@
-// Declaración de variables
-let anio_nacimiente = 2009;
-let numeroDecimal = 3.14;
-let cadenaTexto = "Hola, mundo";
-let valorBooleano = true;
-let arregloNumeros = [1, 2, 3, 4];
-let objetoPersona = { nombre: "Ana", edad: 30 };
+//Declaración de variables
+let cuantosDedosTengo= 20; //tipo numerico
+let mostrarPi = 3.1415; //tipo numerico con parte decimal
+let miSaludo = "que lo que!"; //tipo texto
+let esAlumno = true; //verdadero o falso
+let CuentaAtras = [3, 2, 1];
+let Objeto = { nombre: "Jonathan", correo: "jonathanalquinta@liceovvh.cl", edad: 20 };
 let valorIndefinido;
-let valorNulo = null;
-let nombre_estudiante = "Jonathan";
-let apellido_estudiante = "Alquinta";
-let edad_estudiante = 16;
-const mes = "Junio";
+let Voto = null;
+const siglo = "XXI";
+let arregloColores = ["azul", " gris", " verde"];
 
 // Funciones para mostrar cada valor con alert()
-function mostrar_anio_nacimiento() {
-    alert("anio_nacimiento: " + anio_nacimiente);
+function mostrarcuantosDedosTengo() {
+  alert("Dias del mes " + cuantosDedosTengo);
 }
 
-function mostrarNumeroDecimal() {
-    alert("Número decimal: " + numeroDecimal);
+function mostrarmostrarPi() {
+  alert("mostrar Pi: " + mostrarPi);
 }
 
-function mostrarCadenaTexto() {
-    alert("Cadena de texto: " + cadenaTexto);
+function mostrarmiSaludo() {
+  alert("Saludo: " + miSaludo);
 }
 
-function mostrarBooleano() {
-    alert("Valor booleano: " + valorBooleano);
+function mostraresAlumno() {
+  alert("Es Alumno?: " + esAlumno);
 }
 
-function mostrarArreglo() {
-    alert("Arreglo de números: " + arregloNumeros);
+function mostrarCuentaAtras() {
+  alert("Cuenta Atras: " + CuentaAtras);
 }
 
 function mostrarObjeto() {
-    alert("Objeto persona: " + JSON.stringify(objetoPersona));
+  alert("Usuario: " + JSON.stringify(Objeto));
 }
 
-function mostrarIndefinido() {
-    alert("Valor indefinido: " + valorIndefinido);
+function mostrarGenero() {
+  alert("Genero: " + valorIndefinido);
 }
 
-function mostrarNulo() {
-    alert("Valor nulo: " + valorNulo);
+function mostrarVoto() {
+  alert("Mostrar Voto: " + Voto);
 }
 
-function mostrarConstante() {
-    alert("Constante mes: " + mes);
+function mostrarsiglo() {
+  alert("Siglo: " + siglo);
 }
 
-function mostrar_nombre_estudiante() {
-    alert("nombre_estudiante" + nombre_estudiante);
-}
-
-function mostrar_apellido_estudiante() {
-    alert("apellido_estudiante" + apellido_estudiante);
-}
-
-function mostrar_edad_estudiante() {
-    alert("edad_estudiante" + edad_estudiante);
+function mostrarColores() {
+  alert("Colores: " + arregloColores);
 }
